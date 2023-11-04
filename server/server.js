@@ -7,6 +7,8 @@ const path = require('path');
 
 const port = process.env.PORT || 3000; 
 
+app.listen(port, () => console.log(`Listening on port ${port}`))
+
 
 app.use(express.static(path.join(__dirname, 'build')))
 
@@ -15,10 +17,9 @@ app.get("/", (req, res) => {
 });
 
 
-app.get("/api/greeting/", (req, res) =>{
-  res.send({"hi":"there"})
-})
+// app.get("/api/greeting/", (req, res) =>{
+//   res.send({"hi":"there"})
+// })
 
 
 console.log("this changed")
-app.listen(port, () => console.log(`Listening on port ${port}`))
