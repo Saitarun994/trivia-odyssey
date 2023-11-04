@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const db = require('@cyclic.sh/dynamodb')
 
 
 
@@ -15,8 +14,8 @@ app.get("/", (req, res) => {
 });
 
 
-app.get("/api/greeting/", (req, res) =>{
-	res.send({"hi":"there"})
+app.get("/api/rochester/:lat&:lon", (req, res) =>{
+	res.send({ilnk: "", name: "Highland park", desc: "Its a park", link: "maps.google.com"})
 })
 
 
