@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 
-app.use(express.static('front-end/webpage'))
+app.use(express.static('front-end/webpage/dist'))
 
 
 
