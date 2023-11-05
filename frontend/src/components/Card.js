@@ -6,7 +6,7 @@ function Card({name,ilink,desc,link}) {
     href={link}
     target="_blank"
     rel="noopener noreferrer"
-    className="border-4 border-stone-900 rounded-md overflow-hidden"
+    className="border-2 border-stone-900 rounded-md overflow-hidden"
     >
         <img
              src={ilink}
