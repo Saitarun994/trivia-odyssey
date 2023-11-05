@@ -80,7 +80,7 @@ app.get("/api/rochester/:lat&:lon", async (req, res) => {
         close.push(tempout)
       }
     }
-    if (close.length < 3){
+    if (close.length < 50){
       res.send([{
         ilnk:"https://i.imgur.com/6g5lPS3_d.webp?maxwidth=760&fidelity=grand",
         name:"No Locations are close :(",

@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 const LoginButton = () => {
     const { loginWithRedirect, isAuthenticated } = useAuth0();
     const [location, setLocation] = useState('');
-    const disploc ="";
+    
     useEffect(() => {
       // Fetching username if the user is authenticated
      
@@ -14,12 +14,12 @@ const LoginButton = () => {
           navigator.geolocation.getCurrentPosition(
             async (position) =>{
               setLocation(`Latitude: ${position.coords.latitude}, Longitude: ${position.coords.longitude}`);
-              disploc = await fetch("https://nominatim.openstreetmap.org/resvers?lat="+position.coords.latitude+"&lon="+position.coords.longitude+"&format=json").then((res)=> {
+              location = await fetch("https://nominatim.openstreetmap.org/resvers?lat="+position.coords.latitude+"&lon="+position.coords.longitude+"&format=json").then((res)=> {
               
               return(res.json())
 
             })
-            console.log(disploc)
+            
             },
             (error) => {
               setLocation('Location not available');
