@@ -2,8 +2,8 @@
 <img src="media/cover.png">
 </h1> 
 
-## Overview
-Its a simple and fun location based landmark/tourist attraction identificaiton app, which adds fun little trivia quiz to this location, so you learn and explore at the same time.
+# Trivia Odyssey
+A simple and fun location based landmark/tourist attraction identificaiton app, which adds fun little trivia quiz to this location, so you learn and explore at the same time.
 Here is a short list of things we've done:
 - Created a dataset of tourist attractions and landmarks around rochester (our current location)
 - Track the users current live location and show a list of cards containing tourist attractions around them
@@ -14,24 +14,30 @@ Here is a short list of things we've done:
 <img src="media/workflow.png">
 </h1> 
 
-## How does it work:
+## 🔑 Key Feature
 
-### Auth0 Login
-![preview](/path/to/img.jpg)
+### Auth0 Login to save favourite locations
+<img src="media/auth0.jpeg" width=35%>
 
-### Tile view of nearest landmarks
-![preview](/path/to/img.jpg)
+### Simple Tile view of nearest landmarks
+<img src="media/homepage.png">
+
+### Works on mobile devices as well
+<img src="media/homepage.png">
 
 ### Directions
 ![preview](/path/to/img.jpg)
 
 ### Trivia questions
-![preview](/path/to/img.jpg)
+<img src="media/question.png">
 
-## How we built it
-We used Cyclic to host our database (using dynamo db) and perform api calls 
+### If you want to go there, just click the card to get directions:
+<img src="media/direction.gif" width=55%>
 
-## Challenges we ran into
+## 🛠 Skills
+Cyclic hosting, amazon-dynamodb, auth0, cyclic, express.js , node.js, React
+
+## 📃 Challenges we ran into
 - Fitting all aspects of a fullstack app into play
 - Finding a good use for user authentication
 - Setting up express api and cyclic hosting took most of our time
