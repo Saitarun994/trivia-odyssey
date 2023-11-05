@@ -5,6 +5,8 @@
 # Trivia Odyssey
 Uses geolocation to track nearest landmarks and famous tourist locations around you and shows ordered tile view of things you can do. A simple and fun location based landmark/tourist attraction identificaiton app, which adds fun little trivia quiz to this location, so you learn and explore at the same time.
 
+<img src="media/map.gif" width=150%>
+
 <h1 align="center">
 <img src="media/workflow.png">
 </h1> 
@@ -23,7 +25,8 @@ Uses geolocation to track nearest landmarks and famous tourist locations around 
 ### Hover over the tile to get interesting trivia
 <img src="media/question.png">
 
-### If you want to go there, just click the card to get directions: [Click here to see preview](https://imgur.com/ENmkZv4)
+### If you want to go there, just click the card to get directions: 
+<img src="media/map.gif" width=50%>
 
 ## 🛠 Skills
 Cyclic hosting, amazon-dynamodb, auth0, cyclic, express.js , node.js, React
