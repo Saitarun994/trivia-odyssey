@@ -7,6 +7,8 @@ Uses geolocation to track nearest landmarks and famous tourist locations around 
 
 <img src="media/map.gif" width=150%>
 
+
+# Webstack Architecture
 <h1 align="center">
 <img src="media/workflow.png">
 </h1> 
