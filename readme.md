@@ -3,12 +3,7 @@
 </h1> 
 
 # Trivia Odyssey
-A simple and fun location based landmark/tourist attraction identificaiton app, which adds fun little trivia quiz to this location, so you learn and explore at the same time.
-Here is a short list of things we've done:
-- Created a dataset of tourist attractions and landmarks around rochester (our current location)
-- Track the users current live location and show a list of cards containing tourist attractions around them
-- Clicking on that tourist attraction allows the user to get the direction to that place and a fun trivia question, which lets them learn something new about it.
-- Powered by Auth0 to enable user login and logout
+Uses geolocation to track nearest landmarks and famous tourist locations around you and shows ordered tile view of things you can do. A simple and fun location based landmark/tourist attraction identificaiton app, which adds fun little trivia quiz to this location, so you learn and explore at the same time.
 
 <h1 align="center">
 <img src="media/workflow.png">
@@ -23,16 +18,12 @@ Here is a short list of things we've done:
 <img src="media/homepage.png">
 
 ### Works on mobile devices as well
-<img src="media/homepage.png">
+<img src="media/phone_view.png" width=35%>
 
-### Directions
-![preview](/path/to/img.jpg)
-
-### Trivia questions
+### Hover over the tile to get interesting trivia
 <img src="media/question.png">
 
-### If you want to go there, just click the card to get directions:
-<img src="media/direction.gif" width=55%>
+### If you want to go there, just click the card to get directions: [Click here to see preview](https://imgur.com/ENmkZv4)
 
 ## 🛠 Skills
 Cyclic hosting, amazon-dynamodb, auth0, cyclic, express.js , node.js, React
@@ -45,6 +36,12 @@ Cyclic hosting, amazon-dynamodb, auth0, cyclic, express.js , node.js, React
 
 ## Accomplishments that we're proud of
 **Everyone of our team members worked on technologies we've never used before, Learnt new things at a rapid pace**
+- Created a dataset of tourist attractions and landmarks around rochester (our current location)
+- Track the users current live location and show a list of cards containing tourist attractions around them
+- Clicking on that tourist attraction allows the user to get the direction to that place and a fun trivia question, which lets them learn something new about it.
+- Powered by Auth0 to enable user login and logout
+
+  
 ## What we learned
 DynamoDB, Hosting on Cyclic,  Express Api calls, React/tailwindcss , node.js, Auth0 api
 
